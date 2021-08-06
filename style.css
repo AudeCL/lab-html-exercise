@@ -2,6 +2,28 @@
 
 body {
   font-family: 'Poppins';
+  background-color: white;
+  font-size: 13px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    width: 65%;
+    margin: auto;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #ED1C24;
+    font-weight: bold;
 }
 
 /*Charting Information-->
@@ -16,7 +38,6 @@ header > div {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgray;
-    background-color: white;
     color: black;
   }
   
@@ -57,28 +78,90 @@ header > div {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 100px;
+      width: 200px;
       text-decoration: none;
   }
 
   .join-btn {
-      border: 1px;
-      border-color: black;
+      border: 1px solid lightgrey;
+      padding: 13px 28px;
+
   }
   
+  /*Section 1 Styling*/
   #build-amazing-things {
-      height: 600px;
+      height: 300px;
       background-color: rgba(232,217,217,.3);
+      text-align: center;
+      color: black;
+      padding: 40px 60px;
   }
+
+  #build-amazing-things article {
+    padding: 0 350px 30px 350px;
+}
+
+  #build-amazing-things div {
+      flex-direction: row;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+    
+    #build-amazing-things p {
+        display: inline-block;
+        justify-content: space-evenly;
+    }
 
   #build-amazing-things .see-plan-btn{
       color: white;
       background-color: #FB3B49;
       box-shadow: 8px 8px 0 rgba(251,59,73,.2);
       text-decoration: none;
+      padding: 10px;
   }
 
   #build-amazing-things .join-free-btn{
       color: black;
       text-decoration: none;
+
+}
+
+/*Section 2 Styling*/
+#bring-open-source {
+    height: 300px;
+    text-align: center;
+    color: black;
+    padding: 40px 60px;
+}
+
+.hexagon-logo {
+    width: 200px;
+}
+
+/*Section 3 Styling*/
+#npm-advantages > div {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#npm-advantages img {
+    width: 30px;
+}
+
+#npm-advantages .container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#npm-advantages .create-org-btn {
+    background-color: black;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    text-decoration: none;
+    padding: 14px 28px;
+    width: 20%;
+    margin: 0 auto; 
+    text-align: center;
 }
