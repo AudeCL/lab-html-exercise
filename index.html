@@ -8,7 +8,7 @@
         <body>
             <header>
                 <!--Header Part 1: Corporate Logo + Global navigation Bar-->
-                <div>
+                <div id="header-one">
                     <div>
                         <img class="blackHeart" src="images/black-heart.png" alt="black heart" />
                         <span>Nifty Penguin Magic</span>
@@ -25,17 +25,18 @@
                     </nav>
                 </div>
                 <!--Header Part 2: NPM Logo + Search Bar + Join and Log In CTAs-->
-                <div>
+                <div id="header-two">
+                    <div>
                     <img class="npm-logo" src="images/npm-logo.png" alt="npm Entreprise Logo" />
                     <form>
-                        <img class="search-mg" src="images/magnifying-glass.png" alt="Search Magnifying Glass" />
-                        <label for="searchBar" placeholder="Search packages"></label>
-                        <input type="text" id="searchBar" name="searchBar">
-                        <button type="submit">Search</button>
+                        <label for="searchBar"></label>
+                        <input class="search-bar" type="search" id="searchBar" name="searchBar" placeholder="Search packages">
+                        <button class="search-btn" type="submit">Search</button>
                     </form>
+                    </div>
                     <div class="join-log">
                         <p><a class="join-btn" href="#">Join</a></p>
-                        <p><a href="#">Log In</a></p>
+                        <p><a class="login-btn" href="#">Log In</a></p>
                     </div>
                 </div>
             </header>
@@ -52,8 +53,8 @@
             <section id="bring-open-source">
                 <img class="hexagon-logo" src="images/triangle-hexagon.svg" alt="Triangle Image"/>
                 <h2>Bring the best of open source to your company</h2>
-                <article>npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it.
-                    Create an Org and get more out of the tools your team already knows and loves.</article>
+                <article>npm is the tool used by over 11,000,000 JavaScript developers around the world.<br>Your developers already use it. Your company depends on it.
+                    <br>Create an Org and get more out of the tools your team already knows and loves.</article>
             </section>
             <!--Section 3-->
             <section id="npm-advantages">
